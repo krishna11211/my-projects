@@ -2,7 +2,7 @@ import sqlite3
 from typing import Text
 
 conn = sqlite3.connect('demo.db') # Connect to Database in Python(Permanent)
-# conn = sqlite3.connect(':memory:') # Connect to Database in Python(Temporary)
+# conn = sqlite3.connect(':memory:') # Connect tbase in Python(Temporary)
 
 """Create a Database Table"""
 c = conn.cursor() # Create cursor(for adding data using cursor)
