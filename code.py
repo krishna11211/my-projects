@@ -13,7 +13,7 @@ c = conn.cursor() # Create cursor(for adding data using cursor)
 #         last_name DATATYOE
 #     )""")
 
-"""SQLite Datatypes"""
+"""SQLite Datatype"""
 # Null
 # Integer
 # Real
