@@ -1,6 +1,6 @@
 import sqlite3 # importing sqlite in python which comes by default in Python3
 
-conn = sqlite3.connect('tutorial.db') # create connections
+conn = sqlite3.connect('tutorial.db') # connections
 c = conn.cursor()
 
 # Create a table
